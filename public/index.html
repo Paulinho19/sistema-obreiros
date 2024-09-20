@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Obreiros</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Cadastro de Obreiros</h1>
+
+    <form id="formObreiro">
+      <input
+        type="text"
+        id="nome"
+        placeholder="Digite o nome do Obreiro"
+        required
+      />
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Lista de Obreiros</h2>
+
+    <table id="tabelaObreiros">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Pago</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="resetPagamentos">Marcar todos como Não Pago</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
